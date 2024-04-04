@@ -1,0 +1,115 @@
+* {box-sizing: border-box;}
+
+body { 
+
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 20px 10px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+header a>img {
+    text-decoration: none;
+}
+
+header a {
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    border-radius: 4px;
+  }
+  
+
+
+header img.active {
+  background-color: #dedede;
+}
+
+
+
+header a.active {
+  background-color: #dedede;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.shish {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto;
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: auto;
+  width: 150px;
+  height: 150px;
+}
+
+.card {
+  margin: 1.5em;
+  text-align: center;
+}
+
+.workwus {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.workwus p {
+  font-size: 20px;
+}
+
+.workwus h3 {
+  color:  rgb(35, 208, 0);
+}
+
+.workwus img {
+  width: 200px;
+}
+
+.WorkProcess{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.WorkProcess img {
+  width: 400px;
+  height: 300px;
+  margin-top: 2em;
+}
+
+footer {
+  background-color: #212121;
+  color: white;
+}
+
+.foot {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto;
+}
+
+footer img {
+  width: 3em;
+  
+}
